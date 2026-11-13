@@ -1,0 +1,7 @@
+00       // 00: LOAD 0
+50       // 01: OUT
+AF       // 02: LDB 15
+B0       // 03: DECB
+C0 03    // 04: JNZ wait
+11       // 06: ADD 1
+60 01    // 07: JUMP loop
